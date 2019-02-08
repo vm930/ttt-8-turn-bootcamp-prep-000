@@ -27,7 +27,7 @@ puts "Please provide a postion that's from 1-9."
 
 # Receiving the user input.
 # Convert position to an index.
-index = gets.chomp.to_i
+index = gets.chomp.input_to_index
 
 # If the move is valid, make the move and display the board to the user.
 if move_is_valid?
