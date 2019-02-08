@@ -11,6 +11,6 @@ if move_is_valid?
   return board
 else 
   puts "Please provide a position that is valid"# If the move is invalid, ask for a new move until a valid move is received.
-
+end
 end 
 
