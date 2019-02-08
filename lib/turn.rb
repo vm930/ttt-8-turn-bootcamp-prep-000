@@ -31,7 +31,6 @@ end
 
 def move (board, index, "X")
      board[index.input_to_index] = "X"
-  end
 end
 
 
