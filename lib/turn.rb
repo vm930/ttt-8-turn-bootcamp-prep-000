@@ -30,8 +30,8 @@ end
 
 def turn(board)
 # Asking the user for their move by position 1-9. 
-puts "Please enter 1-9:"
-index = gets.chomp.input_to_index
+  puts "Please enter 1-9:"
+  index = gets.chomp.input_to_index
 
     if valid_move??
       return board
