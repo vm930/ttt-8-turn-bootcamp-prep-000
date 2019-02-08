@@ -30,7 +30,6 @@ def valid_move?(board,index)
 end 
 
 def move (board, index, "X")
-  if index.input_to_index.valid_move?
      board[index.input_to_index] = "X"
   end
 end
