@@ -37,7 +37,7 @@ def turn(board)
   puts "Please enter 1-9:"
   index = gets.chomp.input_to_index
     if valid_move?
-       board
+      puts board
     else 
       puts "Please provide a position that is valid"# If the move is invalid, ask for a new move until a valid move is received.
     end
