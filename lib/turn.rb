@@ -1,5 +1,6 @@
 def turn(input)
-  # Asking the user for their move by position 1-9.
+# Asking the user for their move by position 1-9.
+puts "Please provide a postion that's from 1-9."
 # Receiving the user input.
 # Convert position to an index.
 # If the move is valid, make the move and display the board to the user.
