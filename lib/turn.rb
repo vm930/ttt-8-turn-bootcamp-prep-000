@@ -29,9 +29,9 @@ def valid_move?(board,index)
   end 
 end 
 
-def move (board, index)
+def move (board, index, "X")
   if index.input_to_index.valid_move?
-    return board[index.input_to_index] = "X"
+     board[index.input_to_index] = "X"
   end
 end
 
