@@ -30,7 +30,7 @@ end
 
 def turn(board)
 # Asking the user for their move by position 1-9.
-puts "Please provide a postion that's from 1-9."
+puts puts "Please enter 1-9:"
 
 # Receiving the user input.
 # Convert position to an index.
