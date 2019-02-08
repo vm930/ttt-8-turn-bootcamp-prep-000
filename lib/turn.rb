@@ -39,7 +39,7 @@ def turn(board)
   index = input.to_i - 1
     
     if index.valid_move?
-      puts board
+      move(board, index, character)
     else 
       puts "Please provide a position that is valid"# If the move is invalid, ask for a new move until a valid move is received.
     end
