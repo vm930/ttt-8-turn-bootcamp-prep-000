@@ -7,6 +7,8 @@ puts "Please provide a postion that's from 1-9."
 index = gets.chomp.to_i
 
 # If the move is valid, make the move and display the board to the user.
+
+
 # If the move is invalid, ask for a new move until a valid move is received.
 end 
 
