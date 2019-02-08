@@ -10,8 +10,15 @@ def input_to_index(input)
    input.to_i - 1
 end 
 
-def move(board, board_index, character = "X")
-  board[board_index] = character
+def valid_move?(board,index)
+  # index.between?(0,8)
+  if position_taken?(board,index)
+    false
+  elsif 
+    index.between?(0,8)
+    return true
+  else false
+  end 
 end 
 
 def turn(input)
