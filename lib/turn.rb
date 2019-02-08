@@ -28,7 +28,7 @@ def move(board, index)
 end
 
 
-def turn(input)
+def turn(board)
 # Asking the user for their move by position 1-9.
 puts "Please provide a postion that's from 1-9."
 
