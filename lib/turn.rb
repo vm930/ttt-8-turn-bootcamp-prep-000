@@ -24,6 +24,7 @@ end
 def move(board, index)
   if index.input_to_index.valid_move
     return board[index.input_to_index] = "X"
+  end
 end
 
 
