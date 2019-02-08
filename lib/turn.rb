@@ -33,7 +33,7 @@ def move (board, index, character = "X")
      board[index] = character
 end
 
-def turn(board)
+def turn (board)
   puts "Please enter 1-9:"
   input = gets.chomp
   index = input.to_i - 1
