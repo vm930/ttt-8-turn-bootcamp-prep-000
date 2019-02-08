@@ -1,4 +1,4 @@
-def turn()
+def turn(input)
   # Asking the user for their move by position 1-9.
 # Receiving the user input.
 # Convert position to an index.
